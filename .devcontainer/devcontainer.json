@@ -1,13 +1,21 @@
 
 {
+
   "name": "Basic Dev Environment",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
-  "customizations": {
+
+   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
         "ms-python.debugpy"
       ]
+      
     }
   }
+}
+
+
+{
+   "postCreateCommand": ".devcontainer/postCreate.sh"
 }
