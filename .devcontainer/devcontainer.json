@@ -24,3 +24,7 @@
    }
 },
 }
+
+{
+  "postCreateCommand": ".devcontainer/postCreate.sh"
+}
